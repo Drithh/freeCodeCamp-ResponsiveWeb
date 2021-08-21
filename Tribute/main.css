@@ -35,7 +35,6 @@ body {
 }
 
 #img-div {
-    max-width: 90%;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -44,6 +43,8 @@ body {
 }
 
 #img-div img {
+    max-width: 700px;
+
     width: 80%;
 }
 

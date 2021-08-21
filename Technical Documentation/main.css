@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color:hsl(61, 100%, 97%);
+    
+    color: darkslategray;
+    font-size: clamp(0.8rem, 1vmax, 1rem);
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20rem;
+    background-color: aquamarine;
+    color:darkcyan;
+    border-right: 0.2rem darkcyan solid;
+}
+
+#navbar .nav-item {
+    height: calc(100vw / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.1rem darkcyan solid;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#navbar  p {
+    font-weight: 1000;
+    font-size: 1.8rem;
+}
+
+#navbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#main-doc {
+    position: absolute;
+    left: 22rem;
+}
+
+#main-doc header {
+    font-size: 2rem;
+    font-weight: 1000;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+#main-doc section {
+    height: 100vh;
+}
+
+.main-section {
+    line-height: 2rem;
+}
+
+.main-section code {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    background-color:hsl(60, 11%, 89%);
+    height: 2.5rem;
+    margin: 1rem 0;
+}
+
+.main-section .parameter {
+    position: relative;
+    left: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #navbar {
+        width: 20rem;
+    }
+}

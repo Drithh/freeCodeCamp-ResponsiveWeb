@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-item">
+            <header>Autohotkey Click</header>
+        </div>
+        <div class="nav-item"><a class="nav-link" href="#Click">Click</a></div>
+        <div class="nav-item"><a class="nav-link" href="#Control_Click">Control Click</a></div>
+        <div class="nav-item"><a class="nav-link" href="#Mouse_Move">Mouse Move</a></div>
+        <div class="nav-item"><a class="nav-link" href="#Send">Send</a></div>
+        <div class="nav-item"><a class="nav-link" href="#Control_Send">Control Send</a></div>
+    </nav>
+    <main id="main-doc">
+        <section id="Click" class="main-section">
+            <header>Click</header>
+            <p>Clicks a mouse button at the specified coordinates. It can also hold down a mouse button, turn the mouse
+                wheel, or move the mouse.</p>
+            <code>Click [,Options]</code>
+            <div class="parameter">
+                <ul>
+                    <li>
+                        <p>Options</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Control_Click" class="main-section">
+            <header>Control Click</header>
+            <p>Sends a mouse button or mouse wheel event to a control.</p>
+            <code>ControlClick [,Control-or-Pos, WinTitle, WinText, WhichButton, ClickCount, Options, ExcludeTitle, ExcludeText]</code>
+            <div class="parameter">
+                <ul>
+                    <li>
+                        <p>Control-or-Pos</p>
+                    </li>
+                    <li>
+                        <p>WinTitle</p>
+                    </li>
+                    <li>
+                        <p>WinText</p>
+                    </li>
+                    <li>
+                        <p>WhichButton</p>
+                    </li>
+                    <li>
+                        <p>ClickCount</p>
+                    </li>
+                    <li>
+                        <p>Options</p>
+                    </li>
+                    <li>
+                        <p>ExcludeTitle</p>
+                    </li>
+                    <li>
+                        <p>ExcludeText</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Mouse_Move" class="main-section">
+            <header>Mouse Move</header>
+            <p>Moves the mouse cursor.</p>
+            <code>MouseMove, X, Y [,Speed, Relative]</code>
+            <div class="parameter">
+                <ul>
+                    <li>
+                        <p>X, Y</p>
+                    </li>
+                    <li>
+                        <p>Speed</p>
+                    </li>
+                    <li>
+                        <p>Relative</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Send" class="main-section">
+            <header>Send</header>
+            <p>Sends simulated keystrokes and mouse clicks to the active window.</p>
+            <code>Send Keys</code>
+            <div class="parameter">
+                <ul>
+                    <li>
+                        <p>Keys</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="Control_Send" class="main-section">
+            <header>Control Send</header>
+            <p>Sends simulated keystrokes to a window or control.</p>
+            <code>ControlSend [,Control, Keys, WinTitle, WinText, ExcludeTitle, ExcludeText]</code>
+            <div class="parameter">
+                <ul>
+                    <li>
+                        <p>Control</p>
+                    </li>
+                    <li>
+                        <p>WinTitle</p>
+                    </li>
+                    <li>
+                        <p>WinText</p>
+                    </li>
+                    <li>
+                        <p>ExcludeTitle</p>
+                    </li>
+                    <li>
+                        <p>ExcludeText</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

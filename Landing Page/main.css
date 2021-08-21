@@ -27,19 +27,19 @@ body {
 
 }
 
-#header-img {
+#header-logo {
     width: 10%;
     display: flex;
     justify-content: space-evenly;
     place-items: center;
 }
 
-#header-img img {
+#header-logo img {
     width: 4rem;
     height: 4rem;
 }
 
-#header-img p {
+#header-logo p {
     font-size: 2rem;
 }
 
@@ -50,7 +50,7 @@ body {
     place-items: center;
 }
 
-#nav-bar .nav-link a {
+#nav-bar a.nav-link {
     text-decoration: none;
     color: inherit;
 }
